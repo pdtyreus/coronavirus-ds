@@ -32,6 +32,8 @@ The [Jan 25 Jupyter notebook](2019-nCoV%20Jan%2025.ipynb) works on a snapshot of
 1. Merge the coronavirus DataFrame with the GeoDataFrames
 1. Display on a map
 
+![Jan 25](images/jan25.png?raw=true "Jan 25 Outbreak Snapshot")
+
 ## Dependencies
 
 [Jupyter Notebooks](https://jupyter.org/)
