@@ -1,3 +1,10 @@
+# Google Credentials
+credentials.json
+token.pickle
+
+# PyCharm
+.idea
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
