@@ -24,6 +24,16 @@ The data for tracking the 2019-nCoV outbreak is provided by the [Johns Hopkins C
 
 > In response to this ongoing public health emergency, we developed an online dashboard (static snapshot shown below) to visualize and track the reported cases on a daily timescale; the complete set of data is downloadable as a google sheet. The case data visualized is collected from various sources, including WHO, U.S. CDC, ECDC China CDC (CCDC), NHC and DXY. DXY is a Chinese website that aggregates NHC and local CCDC situation reports in near real-time, providing more current regional case estimates than the national level reporting organizations are capable of, and is thus used for all the mainland China cases reported in our dashboard (confirmed, suspected, recovered, deaths). U.S. cases (confirmed, suspected, recovered, deaths) are taken from the U.S. CDC, and all other country (suspected and confirmed) case data is taken from the corresponding regional health departments. The dashboard is intended to provide the public with an understanding of the outbreak situation as it unfolds, with transparent data sources.
 
+### Pulling Updates from Google Sheets
+
+The data is updated in a read-only [Google Sheet](https://docs.google.com/spreadsheets/d/1yZv9w9zRKwrGTaR-YzmAqMefw4wMlaXocejdxZaTs6w).
+
+Download credentials and install dependencies as described [in the Google documentation.](https://developers.google.com/sheets/api/quickstart/python).
+
+```shell script
+python pull_gsheet_csse.py
+```
+
 ## Progress
 
 The [Jan 25 Jupyter notebook](2019-nCoV%20Jan%2025.ipynb) works on a snapshot of data from Jan 25.
