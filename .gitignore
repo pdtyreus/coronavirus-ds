@@ -2,6 +2,9 @@
 credentials.json
 token.pickle
 
+# Generated images
+out/
+
 # PyCharm
 .idea
 
