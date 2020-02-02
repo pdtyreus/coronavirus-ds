@@ -44,6 +44,8 @@ The [Jan 25 Jupyter notebook](2019-nCoV%20Jan%2025.ipynb) works on a snapshot of
 
 ![Jan 25](images/jan25.png?raw=true "Jan 25 Outbreak Snapshot")
 
+The [nCoV Spread Jupyter notebook](2019-nCoV%20Spread.ipynb) loads all data files into one time-indexed DataFram.
+
 ## Dependencies
 
 [Jupyter Notebooks](https://jupyter.org/)
@@ -58,8 +60,8 @@ pip install descartes
 ## Short-term Roadmap
 
 1. Load and visualize a data snapshot ✅
-1. Create a script to download new data from Google Sheets
-1. Visualize time-series data
+1. Create a script to download new data from Google Sheets ✅
+1. Visualize time-series data ✅
 
 *contributions welcome!*
 
