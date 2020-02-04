@@ -46,8 +46,6 @@ def build_ncov_geodf(day_df):
     ncov = pd.concat([world_ncov[cols], us_state_ncov[cols], china_provinces_ncov[cols], china_cities_ncov[cols]],
                      ignore_index=True)
 
-    ncov['log_confirmed'] = ncov.apply(lambda x: math.log10(x['Confirmed']), axis=1)
-
     return ncov
 
 
