@@ -116,5 +116,14 @@ states_abbr_to_full = {
         'WA': 'Washington',
         'WI': 'Wisconsin',
         'WV': 'West Virginia',
-        'WY': 'Wyoming'
+        'WY': 'Wyoming',
+        'AB': 'Alberta',
+        'MB': 'Manitoba',
+        'NB': 'New Brunswick',
+        'NL': 'Newfoundland and Labrador',
+        'NS': 'Nova Scotia',
+        'ON': 'Ontario',
+        'PE': 'Prince Edward Island',
+        'QC': 'Quebec',
+        'SK': 'Saskatchewan',
 }
